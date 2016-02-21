@@ -1,9 +1,7 @@
 # Spigot
 
 # Thông tin
-  * Máy chủ: VPS
-  * Hệ điều hành: Ubuntu 15.10 x64
-  * Datacenter: Tokyo - Nhật Bản
+
 # Cài đặt
   * Cập nhật: sudo apt-get update -y && sudo apt-get upgrade -y
   * Cài đặt OpenJDK 8: sudo apt-get install openjdk-8-jre -y
