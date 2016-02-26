@@ -1,9 +1,9 @@
 Version: 18
 Language:
     Console:
-        Enabled: Marriage Master has been enabled!
-        Disabled: Marriage Master has been disabled.
-        LangUpdated: Language File has been updated.
+        Enabled: Marriage Master đã kích hoạt!
+        Disabled: Marriage Master đã tắt.
+        LangUpdated: Tệp ngôn ngữ đã được cập nhật.
         NoPermPL: No Permission Plugin found, using default permissions.
         NoEcoPL: No Economy Plugin found disable Economy.
         MetricsOffline: Metrics offline.
