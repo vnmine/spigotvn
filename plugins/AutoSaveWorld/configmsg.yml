@@ -1,0 +1,15 @@
+broadcast:
+  pre: '&9Đang tự động lưu'
+  post: '&9Lưu thành công'
+broadcastbackup:
+  pre: '&9Đang tự động sao lưu'
+  post: '&9Sao lưu thành công'
+broadcastpurge:
+  pre: '&9Đang tự động thanh trừng'
+  post: '&9Thanh trừng thành công'
+insufficentpermissions: '&cBạn không có quyền sử dụng lệnh này.'
+autorestart:
+  restarting: '&9Máy chủ đang khởi động lại'
+  countdown: '&9Máy chủ sẽ khởi động lại sau {SECONDS} giây nữa'
+worldregen:
+  kickmessage: '&9Máy chủ đang khởi tạo bản đồ, vui lòng truy cập lại sau'
