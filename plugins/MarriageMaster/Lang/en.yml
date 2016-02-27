@@ -8,11 +8,11 @@ Language:
         NoEcoPL: Không có plugin tiền tệ Economy được tìm thấy, vô hiệu hoá tiền tệ.
         MetricsOffline: Metrics ngoại tuyến.
         NotSupportedNet: Phiên bản Minecraft không hỗ trợ. Hiệu ứng trái tim được tắt.
-        UpdateUUIDs: Start updating database to UUIDs ...
-        UpdatedUUIDs: 'Updated %s accounts to UUIDs.'
+        UpdateUUIDs: Đang bắt đầu cập nhật cơ sở dữ liệu đến UUIDs ...
+        UpdatedUUIDs: 'Đã cập nhật %s tài khoản đến UUIDs.'
     Description:
-        Commands: commands
-        ListAll: Lists all Married Players.
+        Commands: lệnh
+        ListAll: Danh sách tất cả người chơi đã kết hôn.
         Marry: 'Marry two Persons in a range of %s blocks.'
         Divorce: 'Divorces two Persons in a range of %s blocks.'
         Priest: Sets a priest.
