@@ -19,22 +19,22 @@ Language:
         TP: Dịch chuyển đến người chơi đã kết hôn.
         PvPOn: Kích hoạt PvP với đối tượng.
         PvPOff: Tắt PvP với đối tượng.
-        SetHome: Đặt nhà.
-        TPHome: Dịch chuyển đến nhà.
+        SetHome: Đặt vị trí nhà.
+        TPHome: Dịch chuyển đến vị trí nhà.
         Chat: Tin nhắn riêng tư với đối tượng.
         ChatToggle: Chuyển đổi tin nhắn sang riêng tư với đối tượng.
         Reload: Tải lại cấu hình plugin.
         ListenChat: Hiện tất cả tin nhắn được gửi từ người chơi đã kết hôn với đối tượng của họ.
         Gift: Gifts the item in your hand to your partner.
-        Kiss: Kisses your partner.
-        Update: Checks if there is an update available and downloads it.
-        SelfMarry: Sends a marry request to a other player.
+        Kiss: Hôn đối tượng.
+        Update: Kiểm tra nếu có bản cập nhật và tải nó.
+        SelfMarry: Gửi yêu cầu kết hôn đến người chơi.
         SelfDivorce: To leave your partner.
         Surname: Changes the surname of a couple.
         Backpack: Opens the backpack of your partner.
         BackpackOn: Allows your partner to use your backpack.
         BackpackOff: Disallows your partner to use your backpack.
-        DelHome: Deletes your homepoint.
+        DelHome: Xoá vị trí nhà.
         TPHomeOther: Teleports you to a married players home.
         DelHomeOther: Deletes the home of a married player.
     Ingame:
