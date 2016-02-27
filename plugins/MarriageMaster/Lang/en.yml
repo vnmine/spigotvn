@@ -4,10 +4,10 @@ Language:
         Enabled: Marriage Master đã kích hoạt!
         Disabled: Marriage Master đã tắt.
         LangUpdated: Tệp ngôn ngữ đã được cập nhật.
-        NoPermPL: No Permission Plugin found, using default permissions.
-        NoEcoPL: No Economy Plugin found disable Economy.
-        MetricsOffline: Metrics offline.
-        NotSupportedNet: Not supported MC version. Heart effect disabled.
+        NoPermPL: Không có plugin phân quyền được tìm thấy, sử dụng phân quyền mặc định.
+        NoEcoPL: Không có plugin tiền tệ Economy được tìm thấy, vô hiệu hoá tiền tệ.
+        MetricsOffline: Metrics ngoại tuyến.
+        NotSupportedNet: Phiên bản Minecraft không hỗ trợ. Hiệu ứng trái tim được tắt.
         UpdateUUIDs: Start updating database to UUIDs ...
         UpdatedUUIDs: 'Updated %s accounts to UUIDs.'
     Description:
