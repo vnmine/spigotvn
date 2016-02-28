@@ -15,7 +15,7 @@ Language:
         ListAll: Danh sách tất cả người chơi đã kết hôn.
         Marry: 'Kết hôn hai người trong khoảng cách %s khối.'
         Divorce: 'Divorces two Persons in a range of %s blocks.'
-        Priest: Đặt linh mục.
+        Priest: Đặt cha xứ.
         TP: Dịch chuyển đến người chơi đã kết hôn.
         PvPOn: Kích hoạt PvP với đối tượng.
         PvPOff: Tắt PvP với đối tượng.
@@ -29,74 +29,74 @@ Language:
         Kiss: Hôn đối tượng.
         Update: Kiểm tra nếu có bản cập nhật và tải nó.
         SelfMarry: Gửi yêu cầu kết hôn đến người chơi.
-        SelfDivorce: To leave your partner.
-        Surname: Changes the surname of a couple.
-        Backpack: Opens the backpack of your partner.
-        BackpackOn: Allows your partner to use your backpack.
-        BackpackOff: Disallows your partner to use your backpack.
+        SelfDivorce: Rời đối tượng.
+        Surname: Đổi họ của cặp đôi.
+        Backpack: Mở túi đồ của đối tượng.
+        BackpackOn: Cho phép đối tượng sử dụng túi đồ của bạn.
+        BackpackOff: Không cho phép đối tượng sử dụng túi đồ của bạn.
         DelHome: Xoá vị trí nhà.
-        TPHomeOther: Teleports you to a married players home.
-        DelHomeOther: Deletes the home of a married player.
+        TPHomeOther: Dịch chuyển đến nhà người chơi đã kết hôn.
+        DelHomeOther: Xoá nhà người chơi đã kết hôn.
     Ingame:
-        NotMarried: You are not Married.
-        NoMarriedPlayers: There are no Married Players.
-        NotAPriest: You are not a Priest.
-        NoPermission: "You don't have the Permission to do that."
-        PartnerOnline: Your Partner is online.
-        PartnerOffline: Your Partner is offline.
-        PartnerNowOnline: Your Partner is now online.
-        PartnerNowOffline: Your Partner is now offline.
-        PvPOn: You have now enabled PvP with your Partner.
-        PvPOff: You have now disabled PvP with your Partner.
-        PlayerNoHome: "The player doesn't have a home yet."
-        NoHome: You have no home yet.
-        HomeTP: You have been teleported to your home.
-        HomeSet: Your home has been saved.
-        PlayerNotOn: '%s is not Online.'
-        NoTPInVanish: You cant use teleport if your Partner is Vanished.
-        TP: Teleporting to partner...
-        TPto: Your partner is teleporting to you...
-        TPUnsafe: "Teleport cancelled! You would not survive it!"
-        TPtoUnsafe: "Your partner was about to teleport to you, but would not survive it!"
-        ListHL: Married Player List
-        ListHLMP: 'Showing page %1$d/%2$d - /marry list <page>'
-        PvPIsOff: You can't hurt your Partner if you have PvP disabled.
-        ListeningStarted: You are now listening to the marry chat.
-        ListeningStoped: You are no longer listening to the marry chat.
-        PriestMarryOff: 'Priest (%s) is now offline, wedding called off.'
-        PlayerMarryOff: '%s is now offline, wedding called off.'
-        PlayerCalledOff: '%s called the wedding off.'
-        YouCalledOff: You have called the wedding off.
-        NoItemInHand: You are not holding an item.
-        PartnerInvFull: Your partner have no empty space in his inventory.
-        ItemSent: 'You have sent your partner %1$s %2$s.'
-        ItemReceived: 'Your partner have sent you %1$s %2$s.'
-        GiftsOnlyInSurvival: You can only gift items to your partner when you are in survival mode.
-        YouKissed: You have kissed your partner!
-        YouGotKissed: Your partner has kissed you!
-        TooFarToKiss: You are too far away to kiss your partner. (Max 2 Blocks)
-        KissWait: 'You have to wait %s seconds to kiss your partner again.'
-        WorldNotAllowed: Your partner is in a world where tp is not allowed.
-        CheckingForUpdates: 'Checking for updates ...'
-        Updated: 'Plugin updated, will be loaded on next restart/reload.'
-        NoUpdate: 'No plugin update available.'
-        MarryConfirm: '%s want to marry you. Accept the marriage with /marry accept or deny it with /marry deny'
-        HasMarried: 'You have married %s.'
-        BroadcastMarriage: '%1$s has married %2$s.'
-        BroadcastDivorce: '%1$s has left %2$s.'
-        Divorced: 'You left %s. You are free now.'
-        DivorcedPlayer: '%s has left you. You are free now.'
-        AlreadyMarried: You are already married!
-        OtherAlreadyMarried: '%s is already married.'
-        AlreadyOpenRequest: You have already one not answered marry request.
-        MarryRequestSent: Marriage request sent.
-        TPMoved: Teleport canceled! You have moved!
-        TPDontMove: "Teleport in %s sec! Don't Move!"
-        NotYourself: You cannot marry yourself.
-        ChatJoined: You have set your chat to the private marry chat.
-        ChatLeft: You have set your chat to public chat.
-        NaN: Entered value is not a number!
-        NotInRange: Your partner is to far away.
+        NotMarried: Bạn chưa kết hôn.
+        NoMarriedPlayers: Không có người chơi đã kết hôn.
+        NotAPriest: Bạn không phải là cha xứ.
+        NoPermission: "Bạn không có quyền để làm điều đó."
+        PartnerOnline: Đối tượng trực tuyến.
+        PartnerOffline: Đối tượng ngoại tuyến.
+        PartnerNowOnline: Đối tượng của bạn đã trực tuyến.
+        PartnerNowOffline: Đối tượng của bạn đã ngoại tuyến.
+        PvPOn: Bạn đã bật PvP với đối tượng.
+        PvPOff: Bạn đã tắt PvP với đối tượng.
+        PlayerNoHome: "Người chơi vẫn chưa có nhà."
+        NoHome: Bạn chưa có nhà.
+        HomeTP: Bạn đã được dịch chuyển đến nhà.
+        HomeSet: Nhà đã được lưu lại.
+        PlayerNotOn: '%s không trực tuyến.'
+        NoTPInVanish: Bạn không thể sử dụng dịch chuyển nếu đối tượng đã tan biến.
+        TP: Đang dịch chuyển đến đối tượng...
+        TPto: Đối tượng đang dịch chuyển đến bạn...
+        TPUnsafe: "Dịch chuyển bị huỷ! Bạn không tồn tại nó!"
+        TPtoUnsafe: "Đối tượng sắp dịch chuyển đến bạn, nhưng sẽ không tồn tại nó!"
+        ListHL: Danh sách người chơi đã kết hôn
+        ListHLMP: 'Hiển thị trang %1$d/%2$d - /marry list <page>'
+        PvPIsOff: Bạn không thể làm hại đối tượng nếu PvP đã được tắt.
+        ListeningStarted: Hiện bạn đang nghe đối thoại từ đối tượng.
+        ListeningStoped: Hiện bạn không còn nghe đối thoại từ đối tượng.
+        PriestMarryOff: 'Cha xứ (%s) hiện ngoại tuyến, lễ thành hôn bị huỷ bỏ.'
+        PlayerMarryOff: '%s hiện ngoại tuyến, lễ thành hôn bị huỷ bỏ.'
+        PlayerCalledOff: '%s kêu gọi huỷ bỏ lễ thành hôn.'
+        YouCalledOff: Bạn đã kêu gọi huỷ lễ thành hôn.
+        NoItemInHand: Bạn không giữ vật phẩm.
+        PartnerInvFull: Đối tượng không còn khoảng trống trong túi đồ.
+        ItemSent: 'Bạn đã gửi đối tượng %1$s %2$s.'
+        ItemReceived: 'Đối tượng đã gửi đến bạn %1$s %2$s.'
+        GiftsOnlyInSurvival: Bạn chỉ có thể gói vật phẩm gửi đến đối tượng chỉ khi bạn đang trong chế độ sinh tồn.
+        YouKissed: Bạn đã hôn đối tượng!
+        YouGotKissed: Đối tượng đã hôn bạn!
+        TooFarToKiss: Bạn đứng quá xa để có thể hôn đối tượng. (Tối đa 2 khối)
+        KissWait: 'Bạn phải chờ %s giây để có thể hôn đối tượng trở lại.'
+        WorldNotAllowed: Đối tượng đang trong thế giới mà dịch chuyển không cho phép.
+        CheckingForUpdates: 'Kiểm tra cập nhật ...'
+        Updated: 'Plugin đã được cập nhật, sẽ được tải lại trong lần khởi động lại/làm mới sau đó.'
+        NoUpdate: 'Không có bản cập nhật nào.'
+        MarryConfirm: '%s muốn kết hôn với bạn. Chấp nhận kết hôn hãy nhập /marry <accept> hoặc từ chối /marry <deny>'
+        HasMarried: 'Bạn đã kết hôn %s.'
+        BroadcastMarriage: '%1$s đã kết hôn với %2$s.'
+        BroadcastDivorce: '%1$s đã rời bỏ %2$s.'
+        Divorced: 'Bạn đã rời bỏ %s. Bạn được tự do.'
+        DivorcedPlayer: '%s đã rời bỏ bạn. Bạn được tự do.'
+        AlreadyMarried: Bạn đã kết hôn!
+        OtherAlreadyMarried: '%s đã kết hôn.'
+        AlreadyOpenRequest: Hiện tại bạn có yêu cầu kết hôn chưa phản hồi.
+        MarryRequestSent: Gửi yêu cầu kết hôn.
+        TPMoved: Dịch chuyển bị huỷ bỏ! Bạn đã di chuyển!
+        TPDontMove: "Dịch chuyển sẽ xảy ra trong %s giây nữa! Đừng di chuyển!"
+        NotYourself: Bạn không thể kết hôn với bản thân.
+        ChatJoined: Bạn đã gửi tin nhắn đến tin nhắn kết hôn bí mật.
+        ChatLeft: Bạn đã đặt tin nhắn tán gẫu thành công khai.
+        NaN: Giá trị đã nhập không phải là số!
+        NotInRange: Đối tượng ở quá xa.
         BackpackOnlyInSurvival: You can only access your partners backpack when you are in survival mode.
         BackpackShareOn: You now share your backpack with your partner.
         BackpackShareOff: You now don't share your backpack with your partner.
