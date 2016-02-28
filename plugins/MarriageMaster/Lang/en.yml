@@ -5,7 +5,7 @@ Language:
         Disabled: Marriage Master đã tắt.
         LangUpdated: Tệp ngôn ngữ đã được cập nhật.
         NoPermPL: Không có plugin phân quyền được tìm thấy, sử dụng phân quyền mặc định.
-        NoEcoPL: Không có plugin tiền tệ Economy được tìm thấy, vô hiệu hoá tiền tệ.
+        NoEcoPL: Không có plugin tiền tệ được tìm thấy, vô hiệu hoá tiền tệ.
         MetricsOffline: Metrics ngoại tuyến.
         NotSupportedNet: Phiên bản Minecraft không hỗ trợ. Hiệu ứng trái tim được tắt.
         UpdateUUIDs: Đang bắt đầu cập nhật cơ sở dữ liệu đến UUIDs ...
@@ -14,7 +14,7 @@ Language:
         Commands: lệnh
         ListAll: Danh sách tất cả người chơi đã kết hôn.
         Marry: 'Kết hôn hai người trong khoảng cách %s khối.'
-        Divorce: 'Divorces two Persons in a range of %s blocks.'
+        Divorce: 'Ly hôn hai người trong khoảng cách %s khối.'
         Priest: Đặt cha xứ.
         TP: Dịch chuyển đến người chơi đã kết hôn.
         PvPOn: Kích hoạt PvP với đối tượng.
@@ -25,7 +25,7 @@ Language:
         ChatToggle: Chuyển đổi tin nhắn sang riêng tư với đối tượng.
         Reload: Tải lại cấu hình plugin.
         ListenChat: Hiện tất cả tin nhắn được gửi từ người chơi đã kết hôn với đối tượng của họ.
-        Gift: Gifts the item in your hand to your partner.
+        Gift: Gửi vật phẩm trên tay đến đối tượng.
         Kiss: Hôn đối tượng.
         Update: Kiểm tra nếu có bản cập nhật và tải nó.
         SelfMarry: Gửi yêu cầu kết hôn đến người chơi.
@@ -71,7 +71,7 @@ Language:
         PartnerInvFull: Đối tượng không còn khoảng trống trong túi đồ.
         ItemSent: 'Bạn đã gửi đối tượng %1$s %2$s.'
         ItemReceived: 'Đối tượng đã gửi đến bạn %1$s %2$s.'
-        GiftsOnlyInSurvival: Bạn chỉ có thể gói vật phẩm gửi đến đối tượng chỉ khi bạn đang trong chế độ sinh tồn.
+        GiftsOnlyInSurvival: Bạn chỉ có thể gửi vật phẩm đến đối tượng chỉ khi bạn đang trong chế độ sinh tồn.
         YouKissed: Bạn đã hôn đối tượng!
         YouGotKissed: Đối tượng đã hôn bạn!
         TooFarToKiss: Bạn đứng quá xa để có thể hôn đối tượng. (Tối đa 2 khối)
@@ -83,9 +83,9 @@ Language:
         MarryConfirm: '%s muốn kết hôn với bạn. Chấp nhận kết hôn hãy nhập /marry <accept> hoặc từ chối /marry <deny>'
         HasMarried: 'Bạn đã kết hôn %s.'
         BroadcastMarriage: '%1$s đã kết hôn với %2$s.'
-        BroadcastDivorce: '%1$s đã rời bỏ %2$s.'
-        Divorced: 'Bạn đã rời bỏ %s. Bạn được tự do.'
-        DivorcedPlayer: '%s đã rời bỏ bạn. Bạn được tự do.'
+        BroadcastDivorce: '%1$s đã ly hôn %2$s.'
+        Divorced: 'Bạn đã ly hôn %s. Bạn được tự do.'
+        DivorcedPlayer: '%s đã ly hôn bạn. Bạn được tự do.'
         AlreadyMarried: Bạn đã kết hôn!
         OtherAlreadyMarried: '%s đã kết hôn.'
         AlreadyOpenRequest: Hiện tại bạn có yêu cầu kết hôn chưa phản hồi.
@@ -97,54 +97,54 @@ Language:
         ChatLeft: Bạn đã đặt tin nhắn tán gẫu thành công khai.
         NaN: Giá trị đã nhập không phải là số!
         NotInRange: Đối tượng ở quá xa.
-        BackpackOnlyInSurvival: You can only access your partners backpack when you are in survival mode.
-        BackpackShareOn: You now share your backpack with your partner.
-        BackpackShareOff: You now don't share your backpack with your partner.
-        BackpackOpend: Your partner has opend your backpack.
-        BackpackShareDenied: Your partner doesn't give you access to his backpack.
-        HomeDeleted: Homepoint deleted.
+        BackpackOnlyInSurvival: Bạn chỉ có thể truy cập túi đồ của đối tượng khi bạn trong chế độ sinh tồn.
+        BackpackShareOn: Hiện bạn chia sẻ túi đồ với đối tượng.
+        BackpackShareOff: Hiện bạn không chia sẻ túi đồ với đối tượng.
+        BackpackOpend: Đối tượng đã mở túi đồ của bạn.
+        BackpackShareDenied: Đối tượng không cho phép bạn truy cập túi đồ của họ.
+        HomeDeleted: Vị trí nhà đã được xoá.
     Economy:
-        NotEnough: "You don't have enough money! You need %1$s."
-        PartnerNotEnough: Your partner doesn't have enough money!
-        NotEnoughPriestInfo: The players you are trying to marry don't have enough money.
-        HomeTPPaid: 'You paid %1$s for your home teleport. (%2$s left)'
-        SetHomePaid: 'You paid %1$s to set your Home (%2$s left)'
-        TPPaid: 'You paid %1$s for the Teleport (%1$s left)'
-        DivorcePaid: 'You paid %1$s for the annul of your marriage (%2$s left)'
-        DivNotEnoPriestI: The players you are trying to divorce don't have enough money.
-        MarriagePaid: 'You paid %1$s for your marriage (%2$s left)'
-        GiftPaid: 'You have paid %1$s for gifting an item to your partner (%2$s left)'
+        NotEnough: "Bạn không có đủ tiền! Bạn cần có %1$s."
+        PartnerNotEnough: Đối tượng không có đủ tiền!
+        NotEnoughPriestInfo: Người chơi mà bạn đang cố kết hôn hiện tại không có đủ tiền.
+        HomeTPPaid: 'Bạn đã chi trả %1$s cho việc dịch chuyển về nhà. (còn lại %2$s)'
+        SetHomePaid: 'Bạn đã chi trả %1$s cho việc đặt vị trí nhà (còn lại %2$s)'
+        TPPaid: 'Bạn đã chi trả %1$s ho việc dịch chuyển (còn lại %1$s)'
+        DivorcePaid: 'Bạn đã chi trả %1$s cho việc kết hôn hàng năm (còn lại %2$s)'
+        DivNotEnoPriestI: Người chơi mà bạn đang cố ly hôn hiện tại không có đủ tiền.
+        MarriagePaid: 'Bạn đã chi trả %1$s cho việc kết hôn (còn lại %2$s)'
+        GiftPaid: 'Bạn đã chi trả %1$s để gửi vật phẩm đến đối tượng (còn lại %2$s)'
     Priest:
-        NotWithHimself: "You can't marry %s with himself."
-        NotInRange: The players are not in range.
-        AlreadyMarried: You can't marry people that are already married.
-        BroadcastMarriage: '%1$s has married %2$s with %3$s.'
-        BroadcastDivorce: '%1$s has divorced %2$s from %3$s.'
-        Married: 'You have married %1$s with %2$s.'
-        HasMarried: '%1$s has married you with %2$s.'
-        MadeYouAPriest: '%s has made you a priest.'
-        MadeAPriest: 'You have made %s a priest.'
-        UnMadeYouAPriest: '%s has fired you as a priest.'
-        UnMadeAPriest: 'You have fired %s as a priest.'
-        PlayerNotMarried: The players is not married.
-        PartnerOffline: "%1$s's partner (%2$s) is not Online."
-        DivorcedPlayer: '%1$s has divorced your marriage with %2$s.'
-        Divorced: 'You have divorced %1$s and %2$s.'
-        Confirm: 'Accept the marriage with /marry accept or deny it with /marry deny'
-        AlreadyAccepted: 'You have already accepted the marriage.'
-        NoRequest: 'There is no open marriage request.'
-        NotYourSelf: 'You are not allowed to marry yourself.'
-        AlreadyOpenRequest: '%s has already one not answered marry request.'
-        DivPlayerOff: '%s is now offline, divorce canceled.'
-        DivPriestOff: 'Priest (%s) is now offline, divorce canceled.'
-        PlayerCanceled: '%s has denied the divorce.'
-        DivorceCanceled: You have denied the divorce.
-        DivorceConfirm: 'Accept the divorce with /marry accept or deny it with /marry deny'
-        SurnameSet: Surname changed.
-        DivorceRequestSent: 'Divorce request sent.'
+        NotWithHimself: "Bạn không thể kết hôn %s với bản thân họ."
+        NotInRange: Người chơi không ở trong phạm vi.
+        AlreadyMarried: Bạn không thể kết hôn người chơi mà đã kết hôn.
+        BroadcastMarriage: '%1$s đã kết hôn %2$s với %3$s.'
+        BroadcastDivorce: '%1$s đã ly hôn %2$s từ %3$s.'
+        Married: 'Bạn đã kết hôn %1$s với %2$s.'
+        HasMarried: '%1$s đã kết hôn bạn với %2$s.'
+        MadeYouAPriest: '%s đã cho phép bạn làm cha xứ.'
+        MadeAPriest: 'Bạn đã cho %s làm cha xứ.'
+        UnMadeYouAPriest: '%s đã sa thải bạn từ một cha xứ.'
+        UnMadeAPriest: 'Bạn đã sa thải %s như một cha xứ.'
+        PlayerNotMarried: Người chơi chưa kết hôn.
+        PartnerOffline: "Đối tượng %1$s của (%2$s) hiện không trực tuyến."
+        DivorcedPlayer: '%1$s đã ly hôn với %2$s.'
+        Divorced: 'Bạn đã ly hôn %1$s và %2$s.'
+        Confirm: 'Chấp nhận kết hôn hãy nhập /marry <accept> hoặc từ chối hãy nhập /marry <deny>'
+        AlreadyAccepted: 'Bạn đã chấp nhận việc kết hôn.'
+        NoRequest: 'Không có yêu cầu kết hôn được mở.'
+        NotYourSelf: 'Bạn không có quyền kết hôn bản thân.'
+        AlreadyOpenRequest: '%s hiện có một yêu cầu kết hôn chưa trả lời.'
+        DivPlayerOff: '%s hiện ngoại tuyến, ly hôn bị huỷ.'
+        DivPriestOff: 'Cha xứ (%s) hiện ngoại tuyến, ly hôn bị huỷ.'
+        PlayerCanceled: '%s đã từ chối việc ly hôn.'
+        DivorceCanceled: Bạn đã từ chối việc ly hôn.
+        DivorceConfirm: 'Chấp nhận ly hôn nhập /marry <accept> hoặc từ chối nhập /marry <deny>'
+        SurnameSet: Họ đã được thay đổi.
+        DivorceRequestSent: 'Gửi yêu cầu ly hôn.'
     Dialog:
-        DoYouWant: 'Do you %1$s, want to marry %2$s on this server?'
-        AndDoYouWant: 'And do you %1$s, want to marry %2$s on this server?'
-        Married: 'I now pronounce you husband and wife. You may now kiss .'
-        YesIWant: 'Yes, I will!'
-        NoIDontWant: 'No, I will not!'
+        DoYouWant: 'Bạn %1$s, có muốn kết hôn với %2$s trên máy chủ này không?'
+        AndDoYouWant: 'Và %1$s, có muốn kết hôn với %2$s trên máy chủ này không?'
+        Married: 'Và bây giờ tôi tuyên bố hai bạn là vợ chồng. Hai bạn có thể hôn nhau.'
+        YesIWant: 'Vâng, tôi đồng ý!'
+        NoIDontWant: 'Không, tôi không muốn!'
